@@ -21,8 +21,10 @@ body {
   }
   
   .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    /* grid-template-columns: repeat(2, 1fr); */
     grid-gap: 1rem;
     margin: 1rem;
   }
@@ -31,6 +33,7 @@ body {
     padding: 1rem;
     min-height: 100px;
     border-radius: 5px;
+    flex-basis: 50%;
   }
   
   footer {
@@ -41,8 +44,8 @@ body {
   }
   
   .search {
-    /* width: 100%; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 1rem 0 0 0;
   }
@@ -50,6 +53,8 @@ body {
   .search>input {
     padding: 10px 0 10px 0;
     border-radius: 5px;
+    /* width: 80%; */
+    /* flex-shrink: 90%; */
   
   }
   

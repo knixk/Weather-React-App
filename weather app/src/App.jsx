@@ -1,28 +1,24 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <nav>
-        <div classname="logo"><span>Weather</span></div>
+        <div className="logo"><span>Weather</span></div>
       </nav>
 
       <main>
-        <div classname="search">
+        <div className="search">
           <input type="Search" placeholder="Type area.."/>
             <button>Search</button>
         </div>
 
-        <div classname="grid">
-          <div classname="item">1</div>
-          <div classname="item">2</div>
-          <div classname="item">3</div>
-          <div classname="item">4</div>
+        <div className="grid">
+          <div className="item">1</div>
+          {/* <div className="item">2</div> */}
+          {/* <div className="item">3</div> */}
+          {/* <div className="item">4</div> */}
         </div>
       </main>
 
